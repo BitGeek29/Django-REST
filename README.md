@@ -3,7 +3,7 @@
 #Staic Location set krna
 
 //# <project>/setting.py
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "static") \n
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 #run cmd static loc update
